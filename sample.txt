@@ -1,0 +1,7 @@
+www.example.com CNAME cdn.example.com
+cdn.example.com CNAME edge.provider.net
+edge.provider.net A 203.0.113.10
+loop.example.com CNAME loop2.example.com
+loop2.example.com CNAME loop.example.com
+dangling.example.com CNAME gone.example.net
+mail.example.com A 203.0.113.20
